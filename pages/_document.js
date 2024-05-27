@@ -8,18 +8,15 @@ export default function Document() {
       <Head>
         <link
           rel="icon"
-          href={`${BASE_URL}/images/mayfair_fav.png`}
+          href={`${BASE_URL}/images/HM-logo.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
-          href={`${BASE_URL}/images/mayfair_fav.png`}
+          href={`${BASE_URL}/images/HM-logo.png`}
           sizes="192x192"
         />
-        <link
-          rel="apple-touch-icon"
-          href={`${BASE_URL}/images/mayfair_fav.png`}
-        />
+        <link rel="apple-touch-icon" href={`${BASE_URL}/images/HM-logo.png`} />
         <meta charSet="utf-8" />
       </Head>
       <body>
