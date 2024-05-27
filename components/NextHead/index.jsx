@@ -7,9 +7,9 @@ function NextHead({ title, description, keywords }) {
   const { asPath } = useRouter();
   return (
     <Head>
-      <title>{title || "Mayfair Clinic"}</title>
-      <meta name="title" content={title || "Mayfair Clinic"} />
-      <meta name="description" content={description || "Mayfair Clinic"} />
+      <title>{title || "Harley Medics"}</title>
+      <meta name="title" content={title || "Harley Medics"} />
+      <meta name="description" content={description || "Harley Medics"} />
       <link rel="canonical" href={`${BASE_URL}${asPath}` || ""} />
       <meta name="keywords" content={keywords || ""} />
       <meta name="theme-color" content="#5197CB" />
