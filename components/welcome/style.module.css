@@ -1,0 +1,348 @@
+/*header start */
+
+.lp_header_main {
+  background-color: white !important;
+  padding: 18px;
+  border-radius: 24px;
+  border: 1px solid #656565;
+  width: 80%;
+  margin: auto;
+}
+
+.lp_header_main a {
+  color: white;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.farmeci_heading {
+  justify-content: center;
+}
+
+.content_section {
+  width: 80%;
+  margin: auto;
+}
+
+.content_section_mobile {
+  justify-content: space-around;
+}
+
+.content_text {
+  background-color: #dcefff;
+  border-radius: 40px;
+  color: #021d33;
+  padding: 3%;
+  width: 60%;
+}
+
+.view_treatment_button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.view_treatment_button button {
+  width: 60%;
+  border-radius: 24px;
+  line-height: 44px;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif !important;
+  background: #a0d490 !important;
+  border: #a0d490 !important;
+}
+.content_text h1 {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content_img {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 340px !important;
+}
+
+.content_img img {
+  border-radius: 40px;
+  padding: 0 !important;
+}
+
+.content_img button {
+  margin-top: 20px;
+  width: 400px;
+  background: linear-gradient(101.45deg, #58b3ff 0%, #088fff 100%);
+  border-radius: 24px;
+  padding: 12px;
+}
+
+.trust_org_section {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  border-radius: 40px;
+}
+
+.trust_org_section h6 {
+  color: #677785;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.trust_org_section h6 a {
+  font-weight: 600;
+  color: #a0d490 !important;
+}
+
+.org_logo_section {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+
+.rating_section {
+  background-color: #dcefff;
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  border-radius: 40px;
+  color: #021d33;
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating_section h6 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif !important;
+  line-height: 42px;
+  font-size: 22px;
+}
+
+.rating_section img {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.graphics_section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+.graphic_div {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 40px;
+  width: 25% !important;
+}
+
+.graphics_section h6 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif !important;
+  color: #021d33;
+  font-size: 24px;
+}
+
+.graphics_section p {
+  color: #677785;
+}
+
+.graphics_section img {
+  border-radius: 40px;
+}
+
+.graphics_image {
+  height: 180px !important;
+  width: auto;
+}
+
+.payment_option__container {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 40px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.payment_option__container h3 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  color: #021d33;
+}
+.payment_option {
+  display: flex;
+}
+.payment_option__item {
+  height: 100px;
+}
+
+.footer_main {
+  background-color: black;
+  margin-top: 50px;
+  color: white;
+  width: 80%;
+  margin: auto;
+  border-radius: 40px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.box_main {
+  display: flex;
+  justify-content: space-around;
+  color: #ccd2d6;
+}
+
+.box_main h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 60;
+}
+
+.box_main ul li {
+  list-style-type: none;
+  color: #ccd2d6;
+}
+
+.box_main ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 540px) {
+  .header_top_level a img {
+    width: 130px !important;
+  }
+
+  .header_top_level {
+    justify-content: center;
+  }
+  .content_section {
+    margin-top: 20px !important;
+    width: 85%;
+  }
+
+  .lp_header_main {
+    width: 95%;
+    padding: 10px;
+    border-radius: 16px;
+  }
+
+  .content_section_mobile {
+    flex-direction: column-reverse !important;
+  }
+
+  .content_img {
+    width: 75%;
+    margin: auto;
+  }
+
+  .content_text {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .content_text h1 {
+    font-size: 24px;
+  }
+
+  .content_text p {
+    font-size: 12px;
+  }
+
+  .view_treatment_button button {
+    width: 95%;
+    line-height: 20px;
+    font-size: 18px;
+    border-radius: 18px;
+  }
+
+  .trust_org_section {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .trust_org_section h6 {
+    font-size: 18px;
+  }
+
+  .org_logo_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 32px;
+    margin: 0 !important;
+  }
+
+  .org_logo_section img {
+    margin-top: 30px;
+    width: 50% !important;
+  }
+
+  .rating_section {
+    padding: 25px;
+    width: 90%;
+  }
+
+  .rating_section h6 {
+    line-height: 32px !important;
+    font-size: 16px !important;
+  }
+
+  .graphics_section {
+    width: 90%;
+  }
+
+  .graphic_div {
+    width: 100% !important;
+  }
+
+  .payment_option__container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .payment_option {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .payment_option__item {
+    width: 150px;
+    height: auto;
+  }
+
+  .box_main {
+    flex-direction: column;
+  }
+
+  .footer_main {
+    width: 90%;
+    border-radius: 24px;
+  }
+
+  .box_main div {
+    margin-bottom: 40px;
+  }
+}
