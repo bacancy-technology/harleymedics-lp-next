@@ -33,32 +33,32 @@ export const getServerSideProps = async ({ res }) => {
             <g:brand>${el?.shoparize_brand.replace(/&/g, 'and')}</g:brand>
             <g:product_type>${el?.shoparize_product_type.replace(
               /&/g,
-              'and',
+              'and'
             )}</g:product_type>
             <g:condition>${el?.shoparize_condition.replace(
               /&/g,
-              'and',
+              'and'
             )}</g:condition>
             <g:description>${el?.shoparize_description
               .replace(/<\/?[^>]+(>|$)/g, '')
               .replace(/&nbsp;/g, '')
               .replace(/&/g, 'and')}</g:description>
             <g:image_link>${el?.imagelink}</g:image_link>
-            <g:link>${`https://welcome.mylondonpharmacy.co.uk/welcome/${el._id}`}</g:link>
+            <g:link>${`https://welcome.mylondonpharmacy.co.uk/${el._id}`}</g:link>
             <g:price>GBP ${parseFloat(el?.shoparize_price)}</g:price>
             <g:availability>${el?.shoparize_availability.replace(
               /&/g,
-              'and',
+              'and'
             )}</g:availability>
             <g:gtin>${el?.shoparize_gtin.replace(/&/g, 'and')}</g:gtin>
             <g:gender>${el?.shoparize_gender.replace(/&/g, 'and')}</g:gender>
             <g:category>${el?.shoparize_category.replace(
               /&/g,
-              'and',
+              'and'
             )}</g:category>
             <g:sales_price>${el?.shoparize_sales_price.replace(
               /&/g,
-              'and',
+              'and'
             )}</g:sales_price>
           </item>
           `;
