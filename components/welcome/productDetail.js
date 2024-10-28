@@ -226,24 +226,16 @@ const ProductDetail = (props) => {
             </div> */}
             <div className={`col-md-12 ${styles.box_main}`}>
               <div className={styles.box1}>
-                <h3 className='fw-bold'>About Us</h3>
+                <h3 className='fw-bold'>Useful Links</h3>
                 <ul className='m-0 p-0'>
                   <li>
-                    <Link href='https://www.lovelymeds.com/about-us'>
-                      <a title=''>About</a>
+                    <Link href='https://www.lovelymeds.com/how-it-works'>
+                      <a title=''>How it works</a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href='https://www.lovelymeds.com/about-us#medical-experts'
-                      scroll={false}
-                    >
-                      <a title=''>Medical Experts</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='https://www.lovelymeds.com/blog'>
-                      <a title=''>Blogs</a>
+                    <Link href='https://www.lovelymeds.com/faq' scroll={false}>
+                      <a title=''>FAQ</a>
                     </Link>
                   </li>
                 </ul>
@@ -252,28 +244,13 @@ const ProductDetail = (props) => {
                 <h3 className='fw-bold'>Policies</h3>
                 <ul className='m-0 p-0'>
                   <li>
-                    <Link href='https://www.lovelymeds.com/terms'>
+                    <Link href='https://www.lovelymeds.com/terms-conditions'>
                       <a title='terms'>Terms & Conditions</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='https://www.lovelymeds.com/policy'>
+                    <Link href='https://www.lovelymeds.com/privacy-policy'>
                       <a title='privacy'>Privacy Policy</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='https://www.lovelymeds.com/returns'>
-                      <a title='returns'>Return & Refund</a>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div className={styles.box1}>
-                <h3 className='fw-bold'>Help</h3>
-                <ul className='m-0 p-0'>
-                  <li>
-                    <Link href='https://www.lovelymeds.com/contact'>
-                      <a title='contact'>Contact Us</a>
                     </Link>
                   </li>
                 </ul>
@@ -281,8 +258,8 @@ const ProductDetail = (props) => {
             </div>
           </div>
         </div>
-        <hr className={`${styles.hr}`} />
-        <div className='container container-full-width'>
+        {/* <hr className={`${styles.hr}`} /> */}
+        {/* <div className='container container-full-width'>
           <div className='row'>
             <div className='col-md-12 '>
               <p className='mb-2 text-center'>
@@ -293,7 +270,7 @@ const ProductDetail = (props) => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
