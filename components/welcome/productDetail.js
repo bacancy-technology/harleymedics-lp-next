@@ -162,8 +162,8 @@ const ProductDetail = (props) => {
           </div>
         </div>
         <div className={`col-sm-12 col-md-4 my-3 ${styles.graphic_div}`}>
-          <h6>UAE delivered</h6>
-          <p className='mb-0'>From our london pharmacy</p>
+          <h6>Fast Turnaround</h6>
+          <p className='mb-0'>We aim to dispatch within 24-48 hrs</p>
           <div
             className={`bg-white d-flex flex-column align-items-center h-100 ${styles.graphics}`}
           >
